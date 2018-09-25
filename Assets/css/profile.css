@@ -1,0 +1,315 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+main{
+	padding-left:300px;
+	   background-image:url("../image/b2.jpeg");
+	   height: 100vh;
+	   background-size: cover;
+	   background-repeat: no-repeat;
+
+}
+.container{
+	max-width: 900px;
+	margin: auto;
+
+
+}
+
+body {
+   background-image:url("../image/cross.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Open Sans', sans-serif;
+
+
+}
+#me{
+	height:200px;
+	width:200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	margin-top:50px;
+	text-align: center;
+}
+.about{
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 700px;
+	padding:30px;
+	text-align:center;
+
+}
+.containerlig {	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: lightgreen;
+  border-radius: 0.25rem;
+}
+
+.progress-bar{
+	width: 50%;
+	background-color: blue;
+}
+ul > li{
+	list-style:none;
+	/*background-color:lightgreen;*/
+	margin-bottom:2px;
+	text-align:center;
+	line-height: 48px;
+
+}
+#twitterlogo{
+	font-size: 50px;
+}
+#fblogo {
+	font-size:50px;
+}
+#iglogo {
+	font-size:50px;
+}
+.container2{
+	
+	padding:0px;
+	margin: auto;
+	height:80px;
+}
+li{
+	
+	font-size: 15px;
+}
+h1{
+	text-align:center;
+	color:blue;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+#aboutme{
+	
+	min-height: 500px;
+	padding:30px;
+	/*background-image:url("../image/croad.jpeg");*/
+
+}
+#skills{
+	
+	min-height: 400px;
+	padding:30px;
+
+}
+a{
+	color:blue;
+	text-decoration:none;
+
+}
+p{
+	color:blue;
+	font-style:"Times New Roman",Times, serif;
+	margin-left:20px;
+}
+h2{
+	color:blue;
+	text-align: center;
+}
+#sv{
+	margin-top:20px;
+	color:black;
+}
+.carousel-inner img {
+	width: 100% !important;
+	height:100vh !important;
+}
+
+#links {
+	z-index: 100;
+}
+
+.navs {
+	display: block;	
+}
+.card {
+	height:200px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.card img {
+	height: 100px;
+}
+
+.link-me {
+	z-index: 100;
+}
+.container3{
+	background-size: cover;
+}
+.container4{
+	/*background-image:url("../image/d1.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 100px;
+
+}
+
+#services {
+	margin-left: 200px;
+	color:white;
+}
+
+
+.carousel-inner{
+	height: 600px;
+	width:700px;
+	margin-left: 300px;
+	margin-top: 80px;
+}
+
+nav{
+	top: 0;
+	/*background-color: lightgreen;*/
+	height: 100%;
+	width:150px;
+	position: fixed;
+	padding:30px;
+	font-color:white;
+
+}
+#hero{
+	text-align: center;
+	margin-left:300px;
+}
+#banner{
+	background-color:white;
+	padding:10px;
+
+	/*height: 700px;*/
+}
+@media only screen and (min-width:769px){
+	.col-lg-1 {width:8.33%;}
+	.col-lg-2 {width:16.66;}
+	.col-lg-3 {width:25%;}
+	.col-lg-4 {width:33.33%;}
+	.col-lg-5 {width:41.66%;}
+	.col-lg-6 {width:50%;}
+	.col-lg-7 {width:58.33%;}
+	.col-lg-8 {width:66.66%;}
+	.col-lg-9 {width:75%;}
+	.col-lg-10 {width:83.33%;}
+	.col-lg-11 {width:91.66%;}
+	.col-lg-12 {width:100%;}
+}
+@media only screen and (min-width:451px) and (max-width:768px){
+	.col-md-1 {width:8.33%;}
+	.col-md-2 {width:16.66;}
+	.col-md-3 {width:25%;}
+	.col-md-4 {width:33.33%;}
+	.col-md-5 {width:41.66%;}
+	.col-md-6 {width:50%;}
+	.col-md-7 {width:58.33%;}
+	.col-md-8 {width:66.66%;}
+	.col-md-9 {width:75%;}
+	.col-md-10 {width:83.33%;}
+	.col-md-11 {width:91.66%;}
+	.col-md-12 {width:100%;}
+}
+@media only screen and (max-width:450px){
+	.col-sm-1 {width:8.33%;}
+	.col-sm-2 {width:16.66;}
+	.col-sm-3 {width:25%;}
+	.col-sm-4 {width:33.33%;}
+	.col-sm-5 {width:41.66%;}
+	.col-sm-6 {width:50%;}
+	.col-sm-7 {width:58.33%;}
+	.col-sm-8 {width:66.66%;}
+	.col-sm-9 {width:75%;}
+	.col-sm-10 {width:83.33%;}
+	.col-sm-11 {width:91.66%;}
+	.col-sm-12 {width:100%;}
+#banner{
+	font-size: 10px;
+	color:red;
+
+}
+main{
+ background-image:url("../image/cross.jpg");
+ padding-left: 100px;	
+}
+textarea{
+	width:300px;
+}
+.progress{
+	font-size:10px;
+}
+.progress-bar{
+	size:10px;
+}
+.socialmedia h2{
+	size:20px;
+	font-size: 20px;
+}
+
+.socialmedia [class*="fab"]{
+	font-size: 40px;
+
+}
+.container7{
+	size:10px;
+}
+#me{
+	size:20px;
+	height:100px;
+	width:100px;
+}
+.text-justify{
+	font-size:10px;
+}
+.skills{
+  size: 20px;
+}
+.socialmedia{
+	text-align:right;
+	size:20px;
+}
+input[type=text], select, textarea{
+	width:100%;
+	padding:12px;
+	border: 1px solid black;
+	border-radius:4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+/*.container-fluid{
+	background-color:lightgreen;
+	width: 800px;
+}*/
+h4{
+	font-size:20px;
+	color:white;
+}
+.container5{
+	width: 100px;
+}
+.column{
+	background: #B6DCFE;
+	height: 500px;
+	width: 20%;
+	margin: 20px 1.16%;
+	float:left;
+	text-align: center;
+
+}
